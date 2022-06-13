@@ -3,7 +3,7 @@ from flask import request, jsonify
 from dao.model.genres import GenresSchema
 from implemented import genres_service
 
-genres_ns = Namespace('genres')
+genres_ns = Namespace('genre')
 
 
 @genres_ns.route('/')

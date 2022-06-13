@@ -3,7 +3,7 @@ from flask import request, jsonify
 from dao.model.directors import DirectorsSchema
 from implemented import directors_service
 
-directors_ns = Namespace('directors')
+directors_ns = Namespace('director')
 
 
 @directors_ns.route('/')
